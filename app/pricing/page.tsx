@@ -33,7 +33,7 @@ export default function PricingPage() {
 
         <section className="mt-12 grid gap-6 md:grid-cols-3" aria-label="Pricing plans">
           {plans.map((plan) => (
-            <article key={plan.name} className="rounded-2xl border border-black/10 bg-background p-6 shadow-sm transition-all duration-700 hover:shadow-md">
+            <article key={plan.name} className="rounded-2xl border border-black/10 bg-background p-6 shadow-sm transition-all duration-1000 hover:shadow-md">
               <h2 className="text-lg font-semibold">{plan.name}</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight">{plan.price}</p>
               <p className="mt-3 min-h-14 text-sm leading-6 text-muted-foreground">{plan.description}</p>
